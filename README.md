@@ -1,4 +1,6 @@
-# Backend Engineer Take Home Test
+# Fecth
+
+A command line tool to fetch html content
 
 ## Build
 
@@ -14,14 +16,10 @@
 
 - Display metadata `$ ./fetch --metadata https://www.google.com`
 
-## Section 1
+## Docker
 
-pkg/request/request.go
+- Build `$ docker build . -t fetch`
 
-## Section 2
+- Interactive mode `$ docker run -it -v ${PWD}:/data fetch`
 
-pkg/request/metadata.go
-
-## Extra Credit
-
-pkg/request/asset.go
+- Run `$ docker run -v ${PWD}:/data fetch fetch --metadata https://www.google.com`
