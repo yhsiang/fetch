@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/yhsiang/autify/pkg/cmd"
-	"github.com/yhsiang/autify/pkg/cmd/fetch"
+	"github.com/yhsiang/fetch/pkg/cmd"
+	"github.com/yhsiang/fetch/pkg/cmd/fetch"
 )
 
 func main() {

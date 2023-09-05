@@ -8,8 +8,8 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/yhsiang/autify/pkg/cmd"
-	"github.com/yhsiang/autify/pkg/request"
+	"github.com/yhsiang/fetch/pkg/cmd"
+	"github.com/yhsiang/fetch/pkg/request"
 )
 
 func NewCommand() *cobra.Command {
